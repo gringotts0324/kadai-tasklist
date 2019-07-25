@@ -41,7 +41,7 @@ class TasksController < ApplicationController
     @task.destroy
     
       flash[:success] = 'Taskは正常に更新されました'
-      redirect_to task_url
+      redirect_to tasks_url
   end 
 end
 
